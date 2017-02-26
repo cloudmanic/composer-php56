@@ -30,6 +30,8 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 RUN chmod 755 /docker-entrypoint.sh
 
+RUN chmod -R 777 /composer
+
 WORKDIR /www
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
