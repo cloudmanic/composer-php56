@@ -30,7 +30,7 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 RUN chmod 755 /docker-entrypoint.sh
 
-WORKDIR /app
+WORKDIR /www
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
