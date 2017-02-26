@@ -2,7 +2,6 @@ FROM alpine:3.5
 
 MAINTAINER Spicer Mathtews <spicer@cloudmanic.com>
 
-
 # Essential pkgs
 RUN apk add --no-cache openssh-client git tar php5-fpm curl bash vim tini
 
